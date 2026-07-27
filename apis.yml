@@ -1,8 +1,24 @@
 aid: flank
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flank.png
 name: Flank
-description: 'Flank is a company surfaced as a portfolio company of hv-capital, insight-partners, speedinvest
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: 'Flank builds AI agents for enterprise legal teams that handle high-volume, routine
+  legal work autonomously. Its supervised agents operate like paralegals, taking in requests via
+  email or portals, executing contracting tasks against an organization''s own templates and playbooks,
+  and returning completed work for lawyer review. The platform covers drafting, contract review,
+  negotiation, and triage, letting legal departments insource repetitive work while lawyers supervise
+  finished output and high-risk items. Flank is backed by HV Capital, Insight Partners, and Speedinvest,
+  and is SOC 2 Type 2, ISO 42001, GDPR, and CCPA compliant.'
 url: https://raw.githubusercontent.com/api-evangelist/flank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai Enterprise Software
+- Legal Tech
+- AI Agents
+- Contract Management
+- Legal Operations
+- Agentic AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/flank-trust-center.yml
+- type: Compliance
+  url: https://trust.flank.ai/
+- type: DomainSecurity
+  url: security/flank-domain-security.yml
 - type: Website
   url: https://www.flank.ai/
+- type: Blog
+  url: https://insights.flank.ai
+- type: PrivacyPolicy
+  url: https://www.flank.ai/legals/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

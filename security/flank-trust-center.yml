@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.flank.ai/
+url: https://trust.flank.ai/
+certifications:
+- SOC 2 Type 2
+- ISO 42001
+- GDPR
+- CCPA
+details:
+- name: ISO 42001
+  note: Global standard for the responsible and ethical management of Artificial Intelligence (AI).
+  certificate: AIMS-LE-103025
+- name: SOC 2 Type 2
+  note: Audit certifying the continuous operational effectiveness of security controls.
+- name: GDPR
+  note: EU regulation governing the protection and processing of personal data.
+- name: CCPA
+  note: California law granting consumers control over their personal data, including the right to opt out of its sale or sharing.
+subprocessors:
+- Anthropic
+- OpenAI
+- Google Cloud
+- Azure
+- MongoDB
+- Mailgun
+evidence:
+- source: https://trust.flank.ai/
+  keywords:
+  - soc 2
+  - iso 42001
+  - trust center
+  - gdpr
+  - ccpa
